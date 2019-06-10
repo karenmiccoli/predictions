@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.rowOne {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  border: 2px solid reen;
+  width: 100%;
+}
+.rowTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.rowThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.rowFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.rowFive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.characterContainer {
+  border: 2px solid red;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30%;
+  width: 30%;
+  padding: 0.1%;
+  margin: 0.3%;
+}
+
+.characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 7%;
+  margin-top: 4%;
+  padding: 5%;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px;
+  /* border: 2px solid blue; */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
+  /* border: 2px solid purple; */
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid blue; */
+  font-weight: 700;
+  font-size: 25px;
+}

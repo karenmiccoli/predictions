@@ -1,0 +1,28 @@
+.container {
+  margin: 1%;
+}
+.rowOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rowTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rowThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.rowFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.rowFive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

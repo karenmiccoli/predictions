@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(80, 78, 78);
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 40%;
+}
+.image {
+  margin: 10px;
+}
+
+.text {
+  line-height: 0.4;
+  color: rgb(245, 228, 228);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  color: rgb(245, 228, 228);
+}
+.name {
+  display: flex;
+  justify-content: center;
+}
+.house {
+  display: flex;
+  justify-content: center;
+}
+
+.previousPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18%;
+  height: 100%;
+}
+
+.backText {
+  margin-top: 25%;
+  font-size: 24px;
+  font-weight: 600;
+  height: 50%;
+  color: rgb(245, 228, 228);
+}
+
+.button {
+  height: 30%;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 33%;
+}

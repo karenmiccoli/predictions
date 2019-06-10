@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.profileList {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.characterStatus {
+  display: flex;
+  flex-direction: row;
+  /* width: 20%; */
+}
