@@ -6,14 +6,15 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Live Demo](#live-demo)
 * [Features](#features)
 * [Contact](#contact)
 
 ## General info
 Before the highly disappointing Game of Thrones final season, I entered  “pool” with some friends to predict the end of the show. So, I made an app to keep track of who had the most correct predictions and to track the status of characters. The app was made to avoid any accusations of foul-play and to put some of my coding skills to the test. I would also say that my predictions were definitely better than what actually happened on the show.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+## Live Demo
+https://game-of-thrones-predictions.netlify.com/
 
 ## Technologies
 * React
