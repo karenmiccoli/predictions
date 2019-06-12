@@ -22,12 +22,14 @@ Before the highly disappointing Game of Thrones final season, I entered  “pool
 * Mongoose
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
+ - Clone or download the project
+ - npm install in both client and server folders
+ - npm start to run the project
+ 
 ## Features
 * Main page including the status of all characters in the final season of Game of Thrones
 * Individual players predictions
 * Leaderboard to track the score
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@karenchahal](https://https://www.karenjeetchahal.com) - feel free to contact me!
