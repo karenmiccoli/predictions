@@ -33,4 +33,4 @@ https://game-of-thrones-predictions.netlify.com/
 * Leaderboard to track the score
 
 ## Contact
-Created by [@karenchahal](www.karenjeetchahal.com) - feel free to contact me!
+Created by [@karenchahal](https://www.karenjeetchahal.com) - feel free to contact me!
