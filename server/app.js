@@ -12,7 +12,6 @@ mongoose.connect(
   "mongodb+srv://appservice:gameofthrones@cluster0-avl21.mongodb.net/gameOfThrones?retryWrites=true",
   { useNewUrlParser: true }
 );
-console.log("Connected");
 
 const app = express();
 

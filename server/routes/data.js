@@ -3,7 +3,6 @@ const Player = require("../models/score");
 const router = express.Router();
 
 router.get("/", async function(req, res, next) {
-  console.log("in get all predictions");
   try {
     const predictions = await Player.find();
     res.json({ payload: predictions });
@@ -13,7 +12,6 @@ router.get("/", async function(req, res, next) {
 });
 
 router.post("/", async (req, res, next) => {
-  console.log("posting a new player");
   try {
     const prediction = new Player(req.body);
     await prediction.save();

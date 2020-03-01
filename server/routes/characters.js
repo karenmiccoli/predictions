@@ -4,18 +4,15 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get("/", async (req, res, next) => {
-  console.log("characters");
   try {
     const characters = await Character.find();
     res.json({ payload: characters });
-    console.log(characters);
   } catch (err) {
     res.status(500).json({ message: "Error in getting all characters" });
   }
 });
 
 router.post("/", async (req, res, next) => {
-  console.log("posting new character");
   try {
     const character = new Character(req.body);
     await character.save();
