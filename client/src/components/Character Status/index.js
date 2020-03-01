@@ -15,23 +15,8 @@ class CharacterStatus extends Component {
   async componentDidMount() {
     const response = await fetch(`${API_URL}/characters`);
     const data = await response.json();
-    console.log(data);
     this.setState(() => ({ charactersData: data.payload }));
   }
-
-  // componentDidMount() {
-  //   Promise.all([fetch(`${API_URL}/characters`), fetch(`${API_URL}/data`)])
-
-  //     .then(([res1, res2]) => {
-  //       return Promise.all([res1.json(), res2.json()]);
-  //     })
-  //     .then(([res1, res2]) => {
-  //       this.setState(() => ({
-  //         charactersData: res1.payload,
-  //         karensPred: res2.payload[0].dan
-  //       }));
-  //     });
-  // }
 
   render() {
     const { charactersData } = this.state;
@@ -43,7 +28,6 @@ class CharacterStatus extends Component {
               className={css.rowOne}
               name={character.name}
               key={idx}
-              // status={karensPred.slice(0, 6)}
               status={character.status}
               image={character.image}
             />

@@ -27,19 +27,6 @@ class Leaderboard extends Component {
   async componentDidMount() {
     const response = await fetch(`${API_URL}/data`);
     const data = await response.json();
-    console.log(
-      "this is the actual status",
-      data,
-      "this is all the characters status",
-      data.payload,
-      "karens predictions",
-      data.payload[0].karen,
-      "ageos predictions",
-      data.payload[0].ageo,
-      "dans predictions",
-      data.payload[0].dan,
-      this.state.count.chris
-    );
     var playersData = this.state.players;
     playersData.karen = data.payload[0].karen;
     playersData.ageo = data.payload[0].ageo;

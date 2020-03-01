@@ -17,15 +17,12 @@ class MainFunc extends Component {
   async componentDidMount() {
     const response = await fetch(`${API_URL}/players`);
     const data = await response.json();
-    console.log(data);
     this.setState(() => ({ playerProfiles: data.payload }));
   }
 
   playerClick = id => {
     const { playerProfiles } = this.state;
-    console.log("this is the id", id);
     let player = playerProfiles.find(obj => obj._id === id);
-    console.log(player);
     this.setState({ selectedPlayer: player });
   };
 

@@ -2,7 +2,6 @@ import React from "react";
 import css from "./Predictions.module.css";
 
 const ProfilePredictions = ({ selectedPlayer }) => {
-  console.log("this is", selectedPlayer.predictions);
   return (
     <div className={css.container}>
       <div className={css.rowOne}>

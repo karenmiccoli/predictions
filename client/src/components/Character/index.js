@@ -3,7 +3,6 @@ import React from "react";
 import css from "./Character.module.css";
 
 const Character = ({ name, house, status, image }) => {
-  console.log("thisstatus", status);
   return (
     <div className={css.container}>
       <div className={css.characters}>
